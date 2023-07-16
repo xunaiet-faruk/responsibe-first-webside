@@ -137,13 +137,42 @@ color:darkgray;
 
 }
 
+.card-container{
+
+display: flex;
+justify-content: space-around;
+padding: 20px 20px;
+}
+.card-container .card-img{
+
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    font-weight: 700;
+    padding:20px 40px;
+
+}
 
 
+.card-container .card-title{
+
+font-size: 3rem;
+font-weight: 800;
+color: #131313;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
 
 
+.card-container .card-para{
 
+color: gray;
+font-weight: 600;
+font-size: 1.2rem;
+margin-top: 5px;
 
-
+}
 
 
 
@@ -153,6 +182,7 @@ header{
 
     padding:10px;
 }
+
 
 nav,
 .team-container{
