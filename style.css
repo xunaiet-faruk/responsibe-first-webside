@@ -68,6 +68,15 @@ font-size:1rem;
 
 }
 
+.title{
+
+    
+    font-weight: 800;
+    font-size:3.5rem;
+    color:black;
+
+}
+
 .banner-para{
 
 color:gray;
@@ -196,10 +205,47 @@ gap:140px;
     width:165px;
 }
 
+.Features{
+
+display: flex;
+gap:100px;
+margin-top: 130px;
+
+}
+
+.features-text,.card1{
+
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+}
 
 
+.features,.title{
 
+    border-left: 5px solid orange;
+    padding-left: 20px;
 
+}
+
+.ten-year-div{
+    border-radius: 8px;
+    background: #FF900E;
+    color:#FFF;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+
+}
+
+.title-m{
+
+font-size: 4rem;
+
+}
 
 
 
